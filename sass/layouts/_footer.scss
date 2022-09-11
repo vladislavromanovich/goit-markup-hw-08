@@ -1,0 +1,139 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2f303a;
+  }
+  
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .footer_address {
+    flex-grow: 1;
+  }
+
+  .address {
+    margin-top: 20px;
+  }
+  
+  .address_map {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--address-map);
+    transition: color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      color: var(--hover-focus-color);
+    }
+  }
+  
+
+  
+  .address_link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      color: var(--hover-focus-color);
+    }
+  }
+  
+
+  
+  .addres_item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  .join {
+    margin-left: 70px;
+  }
+  
+  
+  
+  .join_text {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .join_soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .join_icon {
+    fill: #ffffff;
+  }
+  
+  .join_link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+      background-color: #2196f3;
+    }
+    &:hover .teamsoc_icon,
+    &:focus .teamsoc_icon {
+      fill: #ffffff;
+    }
+  }
+  
+
+  
+
+
+  .follow {
+    margin-left: 93px;
+  }
+  
+  .follow_text {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .follow_input {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .follow_form {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    gap: 12px;
+    background-color: #2f303a;
+    &:focus {
+      outline-color: #2f303a;
+    }
+  }
+  
+
+  
+  .follow_icon {
+    margin-left: 10px;
+  }
